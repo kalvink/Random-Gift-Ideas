@@ -3,31 +3,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/menu_home" />
 
-        <item android:title="Boys">
+    <item android:title="Boys">
+        <menu>
             <item
-                android:id="@+id/nav_gallery"
+                android:id="@+id/nav_him"
                 android:icon="@drawable/ic_menu_gallery"
                 android:title="@string/menu_him" />
             <item
-                android:id="@+id/nav_slideshow"
+                android:id="@+id/nav_dad"
                 android:icon="@drawable/ic_menu_slideshow"
                 android:title="@string/menu_dad" />
             <item
-                android:id="@+id/nav_tools"
+                android:id="@+id/nav_brother"
                 android:icon="@drawable/ic_menu_manage"
                 android:title="@string/menu_brother" />
-        </item>
-    </group>
+        </menu>
+
+    </item>
 
 
-
-<item android:title="Girls">
+    <item android:title="Girls">
         <menu>
             <item
                 android:id="@+id/nav_her"
