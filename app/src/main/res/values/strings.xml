@@ -11,14 +11,27 @@
     <string name="menu_home">Home</string>
 
     <!-- Male -->
+    <string name="boys">Boys</string>
+
     <string name="menu_him">For Him</string>
     <string name="menu_dad">For Dad</string>
+    <string name="for_dad">For Dad</string>
     <string name="menu_brother">For Brother</string>
-    <string name="menu_friend">For Friend</string>
+
+    <string name="for_him">For Him</string>
+    <string name="for_brother">For Brother</string>
 
     <!-- Female -->
+    <string name="girls">Girls</string>
     <string name="menu_her">For Her</string>
     <string name="menu_mom">For Mom</string>
     <string name="menu_sister">For Sister</string>
+    <string name="for_sister">For Sister</string>
+    <string name="for_her">For Her</string>
+    <string name="for_mom">For Mom</string>
+    <string name="randomize_your_gift">Randomize Your Gift!</string>
+    <string name="gift_box">gift box</string>
+    <string name="button_random">Randomize</string>
+
 
 </resources>

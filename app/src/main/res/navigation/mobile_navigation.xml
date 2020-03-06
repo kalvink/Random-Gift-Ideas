@@ -12,32 +12,38 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/menu_him"
-        android:name="com.kalvinkao.randomgiftideas.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_him"
+        android:name="com.kalvinkao.randomgiftideas.ui.him.Him"
         android:label="@string/menu_him"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_him" />
 
     <fragment
-        android:id="@+id/menu_dad"
-        android:name="com.kalvinkao.randomgiftideas.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_dad"
+        android:name="com.kalvinkao.randomgiftideas.ui.dad.Dad"
         android:label="@string/menu_dad"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_dad" />
 
     <fragment
         android:id="@+id/nav_brother"
-        android:name="com.kalvinkao.randomgiftideas.ui.tools.ToolsFragment"
+        android:name="com.kalvinkao.randomgiftideas.ui.brother.Brother"
         android:label="@string/menu_brother"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_brother" />
 
     <fragment
         android:id="@+id/nav_her"
-        android:name="com.kalvinkao.randomgiftideas.ui.share.ShareFragment"
+        android:name="com.kalvinkao.randomgiftideas.ui.her.Her"
         android:label="@string/menu_her"
-        tools:layout="@layout/fragment_share" />
+        tools:layout="@layout/fragment_her" />
+
+    <fragment
+        android:id="@+id/nav_mom"
+        android:name="com.kalvinkao.randomgiftideas.ui.mom.Mom"
+        android:label="@string/menu_mom"
+        tools:layout="@layout/fragment_mom" />
 
     <fragment
         android:id="@+id/nav_sister"
-        android:name="com.kalvinkao.randomgiftideas.ui.send.SendFragment"
+        android:name="com.kalvinkao.randomgiftideas.ui.sister.Sister"
         android:label="@string/menu_sister"
-        tools:layout="@layout/fragment_send" />
+        tools:layout="@layout/fragment_sister" />
 </navigation>

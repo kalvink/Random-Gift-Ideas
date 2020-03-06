@@ -5,41 +5,40 @@
 
     <item
         android:id="@+id/nav_home"
-        android:icon="@drawable/ic_menu_camera"
+        android:icon="@drawable/home"
         android:title="@string/menu_home" />
 
-    <item android:title="Boys">
+    <item android:title="@string/boys">
         <menu>
             <item
                 android:id="@+id/nav_him"
-                android:icon="@drawable/ic_menu_gallery"
+                android:icon="@drawable/him"
                 android:title="@string/menu_him" />
             <item
                 android:id="@+id/nav_dad"
-                android:icon="@drawable/ic_menu_slideshow"
+                android:icon="@drawable/father"
                 android:title="@string/menu_dad" />
             <item
                 android:id="@+id/nav_brother"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/brother"
                 android:title="@string/menu_brother" />
         </menu>
 
     </item>
 
-
-    <item android:title="Girls">
+    <item android:title="@string/girls">
         <menu>
             <item
                 android:id="@+id/nav_her"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/her"
                 android:title="@string/menu_her" />
             <item
                 android:id="@+id/nav_mom"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/mother"
                 android:title="@string/menu_mom" />
             <item
                 android:id="@+id/nav_sister"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/sister"
                 android:title="@string/menu_sister" />
         </menu>
     </item>
